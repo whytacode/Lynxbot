@@ -1,0 +1,10 @@
+{
+    "intents": [
+        "Guilds",
+        "GuildMessages",
+        "GuildMembers",
+        "MessageContent"
+    ],
+    
+    "developerId": "954414329099350059"
+}
