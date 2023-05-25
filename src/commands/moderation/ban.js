@@ -22,7 +22,7 @@ module.exports = {
                 { name: "Никнейм модератора:", value: interaction.user.tag, inline: true },
                 { name: "Причина блокировки:", value: reason, inline: true }
             )
-            .setThumbnail(interaction.guild.iconURL() ?? null);
+            .setThumbnail(interaction.guild.iconURL());
 
         if (member.bannable) {
             try {
